@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title', 'Blog')
+@section('description', 'Articles I\'ve written')
+
 @section('content')
     <div class="page-header">
         <h1>Blog</h1>

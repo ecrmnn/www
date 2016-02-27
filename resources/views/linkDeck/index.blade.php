@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title', 'LinkDeck Icon Pack by Daniel Eckermann')
+@section('description', 'LinkDeck is a free icon pack that can be used in both personal and commercial projects. Available sizes: 256x256, 128x128, 64x64, 32x32 and 16x16.')
+
 @section('content')
     <div class="page-header">
         <h1>LinkDeck Icon Pack by <a href="{{ route('home.index') }}">Daniel Eckermann</a></h1>

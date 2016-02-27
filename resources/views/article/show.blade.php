@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title', $article->title)
+@section('description', $article->description)
+
 @section('content')
     <div class="page-header">
         <h1>{{ $article->title }}</h1>

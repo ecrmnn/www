@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="/assets/css/app.css">
     <link rel="icon" type="image/png" href="/assets/favicon/favicon.png">
 
-    <title>LinkDeck Icon Pack by Daniel Eckermann</title>
-    <meta name="description" content="LinkDeck is a free icon pack that can be used in both personal and commercial projects. Available sizes: 256x256, 128x128, 64x64, 32x32 and 16x16.">
+    <title>@yield('title')</title>
+    <meta name="description" content="@yield('description')">
 
     <!-- Open Graph Protocol -->
-    <meta property="og:locale" content='nb_NO'/>
+    <meta property="og:locale" content='en'/>
     <meta property="og:type" content='website'/>
-    <meta property="og:title" content="LinkDeck Icon Pack by Daniel Eckermann" />
-    <meta property="og:description" content="LinkDeck is a free icon pack that can be used in both personal and commercial projects. Available sizes: 256x256, 128x128, 64x64, 32x32 and 16x16." />
-    <meta property="og:url" content="http://danieleckermann.com/linkdeck" />
-    <meta property="og:image" content="http://danieleckermann.com/assets/DanielEckermann/img/linkdeck/ui/opengraph.jpg" />
+    <meta property="og:title" content="@yield('title')" />
+    <meta property="og:description" content="@yield('description')" />
+    <meta property="og:url" content="{{ request()->url() }}" />
+    <meta property="og:image" content="@yield('image', 'https://avatars3.githubusercontent.com/u/1481696?v=3&s=320')" />
     <meta property="og:site_name" content="Daniel Eckermann" />
 
     <!-- View port -->

@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('title', 'Hi, I\'m Daniel Eckermann')
+@section('description', 'Partner & CTO at Sempro and @ecrmnn on Twitter')
+
 @section('content')
     <div class="row">
         <div class="col-md-12 text-center">
