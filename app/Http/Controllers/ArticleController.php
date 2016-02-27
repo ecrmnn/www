@@ -25,7 +25,7 @@ class ArticleController extends Controller
      */
     public function index()
     {
-        $articles = $this->article->all();
+        $articles = $this->article->lastest()->get();
 
         return view('article.index', compact('articles'));
     }
