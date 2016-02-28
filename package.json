@@ -3,6 +3,7 @@
   "devDependencies": {
     "bootstrap-sass": "^3.3.6",
     "gulp": "^3.8.8",
+    "jquery": "^2.2.1",
     "prismjs": "^1.4.1"
   },
   "dependencies": {
