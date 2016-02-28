@@ -8507,3 +8507,9 @@ pre[class*="language-"] {
 .pt20 {
   padding-top: 20px;
 }
+
+.blog-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
