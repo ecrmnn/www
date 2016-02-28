@@ -8302,6 +8302,19 @@ button.close {
   border: solid 1px #e6e6e6;
 }
 
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f4f4f4;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
 table {
   width: 100%;
   max-width: 100%;
