@@ -21,6 +21,9 @@
     <meta property="og:image" content="@yield('image', 'https://avatars3.githubusercontent.com/u/1481696?v=3&s=320')" />
     <meta property="og:site_name" content="Daniel Eckermann" />
 
+    <!-- Site verification -->
+    <meta name="google-site-verification" content="9-iMwUs_G24lIh8PvMORdLLrYG8iKbUBIsJXfBhk78o" />
+
     <!-- View port -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
