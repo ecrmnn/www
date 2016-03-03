@@ -39,7 +39,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ route('home.index') }}">DanielEckermann</a>
+            <a class="navbar-brand" href="{{ route('home.index') }}">Daniel Eckermann</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
