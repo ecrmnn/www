@@ -43,3 +43,11 @@ Route::group(['prefix' => 'blog'], function () {
         ]
     );
 });
+
+Route::get(
+    'sitemap.xml',
+    [
+        'as' => 'sitemap.xml',
+        'uses' => 'SitemapController@xml'
+    ]
+);
