@@ -6,7 +6,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-12 text-center">
-            <img src="https://avatars3.githubusercontent.com/u/1481696?v=3&s=320"
+            <img src="/assets/img/ecrmnn.png"
                  alt="Daniel Eckermann"
                  class="img-responsive img-circle center-block selfie"/>
 
