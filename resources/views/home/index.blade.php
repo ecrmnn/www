@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title', 'Hi, I\'m Daniel Eckermann')
-@section('description', 'Partner & CTO at Sempro and @ecrmnn on Twitter')
+@section('description', 'Partner & CTO at Sempro and passionate about development. I specialize in PHP/Laravel and Node.js')
 
 @section('content')
     <div class="row">
