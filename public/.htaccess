@@ -10,8 +10,8 @@
     RewriteRule ^(.*)/$ /$1 [L,R=301]
 
     # Use non-www
-    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-    RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+    RewriteCond %{HTTP_HOST} ^danieleckermann.com [NC]
+    RewriteRule ^(.*)$ http://www.danieleckermann.com/$1 [L,R=301]
 
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
