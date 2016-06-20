@@ -18,7 +18,7 @@
     <meta property="og:title" content="@yield('title')" />
     <meta property="og:description" content="@yield('description')" />
     <meta property="og:url" content="{{ request()->url() }}" />
-    <meta property="og:image" content="@yield('image', 'http://danieleckermann.com/assets/img/ecrmnn.png')" />
+    <meta property="og:image" content="@yield('image', 'http://www.danieleckermann.com/assets/img/ecrmnn.png')" />
     <meta property="og:site_name" content="Daniel Eckermann" />
 
     <!-- Site verification -->
